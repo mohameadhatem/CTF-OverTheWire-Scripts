@@ -1,21 +1,28 @@
-# Bandit Scripts – OverTheWire
+# Bandit CTF Scripts – OverTheWire
 
-This repository contains **Bash scripts** written while solving the **Bandit CTF** from OverTheWire.  
-The main goal is learning **Linux fundamentals**, **text processing**, and **basic security concepts** in a practical way.
-
-الريبو ده معمول للتعلّم العملي، مش لتخزين حلول جاهزة أو Flags.
+Bash scripts created while solving the **Bandit CTF** on OverTheWire.  
+Focused on **Linux fundamentals**, **text processing**, and **SOC-relevant skills**.
 
 ---
 
-## 🎯 Goals (الأهداف)
-- Learn Linux commands (تعلم أوامر لينكس)
-- Practice CTF methodology (التفكير في تحديات CTF)
-- Improve SOC skills like:
-  - Log analysis (تحليل اللوجات)
-  - Text filtering using `grep`, `awk`, `cut`
-- Build a GitHub portfolio useful for jobs (Portfolio للتوظيف)
+## What This Repo Contains
+- Bash scripts for Bandit levels
+- Practical usage of:
+  - `grep` (search)
+  - `awk` (text processing)
+  - `find` (file discovery)
+- Clean, minimal automation (no stored flags)
 
 ---
 
-## 📂 Repository Structure (هيكلة المشروع)
+## Purpose
+- Practice CTF methodology
+- Strengthen Linux & command-line skills
+- Build a cybersecurity GitHub portfolio
 
+---
+
+## Usage
+Run each script **inside its corresponding Bandit level user**:
+```bash
+bash scripts/levels/levelXX.sh
