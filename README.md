@@ -25,3 +25,18 @@ Each script connects via SSH, executes the required commands, and extracts the n
 ---
 
 ## Repository Structure
+CTF-OverTheWire-Scripts/
+├── bandit/
+│ ├── bandit00.py
+│ ├── bandit01.py
+│ ├── bandit02.py
+│ └── ...
+├── README.md
+└── .gitignore
+
+---
+
+## Usage
+Run a script for the corresponding level:
+```bash
+python3 bandit00.py
