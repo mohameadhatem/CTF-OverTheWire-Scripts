@@ -1,28 +1,44 @@
-# Bandit CTF Scripts – OverTheWire
+# CTF OverTheWire Scripts
 
-Bash scripts created while solving the **Bandit CTF** on OverTheWire.  
-Focused on **Linux fundamentals**, **text processing**, and **SOC-relevant skills**.
+Python automation scripts for solving **OverTheWire CTF challenges**, with a focus on the **Bandit** wargame.
 
----
-
-## What This Repo Contains
-- Bash scripts for Bandit levels
-- Practical usage of:
-  - `grep` (search)
-  - `awk` (text processing)
-  - `find` (file discovery)
-- Clean, minimal automation (no stored flags)
+The goal of this repository is to practice:
+- SSH automation
+- Linux command execution
+- Text processing
+- Security-oriented scripting
 
 ---
 
-## Purpose
-- Practice CTF methodology
-- Strengthen Linux & command-line skills
-- Build a cybersecurity GitHub portfolio
+## Included Challenges
+- **Bandit** (current)
 
+Each script connects via SSH, executes the required commands, and extracts the next level password without storing any secrets.
+
+---
+
+## Technologies Used
+- Python 3
+- Paramiko (SSH automation)
+- Linux command-line tools (`cat`, `grep`, `awk`, `find`)
+
+---
+
+## Repository Structure
+
+```text
+CTF-OverTheWire-Scripts/
+├── bandit/
+│   ├── bandit00.py
+│   ├── bandit01.py
+│   ├── bandit02.py
+│   └── ...
+├── README.md
+└── .gitignore
+```
 ---
 
 ## Usage
-Run each script **inside its corresponding Bandit level user**:
+Run a script for the corresponding level:
 ```bash
-bash scripts/levels/levelXX.sh
+python3 bandit00.py
