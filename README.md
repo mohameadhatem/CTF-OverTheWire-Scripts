@@ -42,3 +42,8 @@ CTF-OverTheWire-Scripts/
 Run a script for the corresponding level:
 ```bash
 python3 bandit00.py
+
+## 👤 Author
+Mohamed Hatem  
+SOC & Cyber Security Learning Project
+
