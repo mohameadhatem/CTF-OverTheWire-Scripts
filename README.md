@@ -1,4 +1,3 @@
--
 # CTF OverTheWire – Bandit
 
 ## Overview
@@ -23,8 +22,8 @@ This repository demonstrates **practical learning**, structured analysis, and cl
 
 ```
 bandit/
- ├── level0-1.md
- ├── level1-2.md
+ ├── level00.py
+ ├── level01.py
  └── ...
 ```
 
@@ -41,6 +40,12 @@ Each writeup includes:
 
 (No passwords or flags)
 
+---
+
+## ▶️ How to Run
+```bash
+python bandit01.py
+```
 ---
 
 ## Relevance to SOC
